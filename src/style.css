@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
 
 :root {
-  --Dark-Blue: hsl(209, 23%, 22%);
-  --Very-Dark-Blue: hsl(207, 26%, 17%);
+  --Dark-Blue: #130e0e;
+  --Very-Dark-Blue: #FFFF;
   --Dark-Gray: hsl(0, 0%, 52%);
   --Very-Light-Gray: hsl(0, 0%, 98%);
   --White: hsl(0, 0%, 100%);
@@ -38,7 +38,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: goldenrod;
+  color: blue;
   padding: 0 1rem;
 }
 
@@ -51,7 +51,7 @@ nav {
   margin-bottom: 1rem;
   border-radius: 3rem;
   text-align: center;
-  color: goldenrod;
+  color: blue;
 }
 
 .comment-count {
@@ -73,13 +73,13 @@ nav {
 }
 
 .right-header {
-display: flex;
-list-style-type: none;
+  display: flex;
+  list-style-type: none;
 }
 
 .footer a,
 footer p {
-  color: goldenrod;
+  color: blue;
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 600;
@@ -87,7 +87,7 @@ footer p {
 
 .right-header li a {
   margin-left: 16px;
-  color: goldenrod;
+  color: blue;
   text-decoration: none;
 }
 
@@ -136,7 +136,7 @@ footer p {
 
 .like-icon {
   cursor: pointer;
-  color: goldenrod;
+  color: blue;
   transition: all 0.3s linear;
   background: none;
   border: none;
@@ -164,7 +164,7 @@ footer p {
 }
 
 .second-part button:hover {
-  background-color: goldenrod;
+  background-color: blue;
   color: var(--White);
 }
 
@@ -178,7 +178,7 @@ footer p {
   padding: 0 0.5rem;
   background-color: var(--Dark-Blue);
   border-radius: 0.5rem;
-  color: goldenrod;
+  color: blue;
 }
 
 .first-part,
@@ -195,7 +195,7 @@ footer p {
 
 .footer {
   background-color: var(--Dark-Blue);
-  color: goldenrod;
+  color: blue;
 }
 
 .copyright {
@@ -210,7 +210,7 @@ footer p {
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
   align-items: center;
-  color: goldenrod;
+  color: blue;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -247,7 +247,7 @@ footer p {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: goldenrod;
+  background-color: blue;
   transition: 0.4s;
   z-index: 1;
   padding: 1rem;
@@ -297,7 +297,7 @@ textarea {
 }
 
 .comment-btn:hover {
-  background-color: goldenrod;
+  background-color: blue;
   color: var(--White);
 }
 

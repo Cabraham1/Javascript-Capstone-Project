@@ -41,6 +41,8 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
+    "fetch-mock": "^9.11.0",
+    "jest-environment-jsdom": "^29.5.0",
     "lodash": "^4.17.21"
   },
   "main": "webpack.config.js"

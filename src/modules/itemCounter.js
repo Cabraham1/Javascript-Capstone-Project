@@ -8,9 +8,8 @@ const menuCounter = async () => {
       const meal = data.meals;
       const count = meal.length;
       itemCounter.innerHTML = `(${count})`;
-  })
-}
-
+    });
+};
 
 export default menuCounter;
 menuCounter();

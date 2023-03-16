@@ -135,6 +135,7 @@ footer p {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .card .card-image {
@@ -366,4 +367,14 @@ textarea {
   .like-part {
     margin-bottom: 0;
   }
+}
+
+/* Footer */
+footer {
+  border: 3px solid black;
+  padding: 24px;
+}
+
+footer p {
+  margin: 0;
 }

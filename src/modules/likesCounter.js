@@ -6,6 +6,16 @@ const likes = () => {
     const clicked = e.target.closest('.like-icon');
     if (!clicked) return;
     const item = clicked.getAttribute('id');
+    fetch(URL_API, {
+      method: 'POST',
+      headers: {
+        'Content-type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({
+        item_id: item,
+      }),
+    });
   });
 };
 

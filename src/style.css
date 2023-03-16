@@ -134,7 +134,7 @@ footer p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
-  margin-top: 6rem;
+  margin-top: 2rem;
 }
 
 .card .card-image {

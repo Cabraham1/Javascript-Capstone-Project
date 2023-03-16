@@ -369,6 +369,93 @@ textarea {
   }
 }
 
+@media (min-width: 650px) and (max-width: 835px) {
+  .meal-cards {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 3rem;
+  }
+
+  .card .card-content {
+    padding: 0 0.5rem;
+  }
+
+  .first-part,
+  .second-part {
+    flex-direction: column;
+  }
+
+  .second-part button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .like-part {
+    margin-bottom: 0;
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sl,
+  .address,
+  .open-hours,
+  .more-info {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  nav .display-none {
+    display: none;
+  }
+
+  .meal-cards {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 5%;
+  }
+
+  .card .card-content {
+    padding: 0 0.5rem;
+  }
+
+  .first-part,
+  .second-part {
+    flex-direction: column;
+  }
+
+  .second-part button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .like-part {
+    margin-bottom: 0;
+  }
+
+  .carousel-item {
+    height: 20rem;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sl,
+  .address,
+  .open-hours,
+  .more-info {
+    margin-bottom: 2rem;
+  }
+}
+
 /* Footer */
 footer {
   border: 3px solid black;

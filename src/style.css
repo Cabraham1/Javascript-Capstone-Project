@@ -2,7 +2,7 @@
 
 :root {
   --Dark-Blue: #130e0e;
-  --Very-Dark-Blue: #FFFF;
+  --Very-Dark-Blue: #ffff;
   --Dark-Gray: hsl(0, 0%, 52%);
   --Very-Light-Gray: hsl(0, 0%, 98%);
   --White: hsl(0, 0%, 100%);
@@ -367,4 +367,3 @@ textarea {
     margin-bottom: 0;
   }
 }
-

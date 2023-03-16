@@ -175,7 +175,7 @@ footer p {
 
 .like-icon {
   cursor: pointer;
-  color: blue;
+  color: red;
   transition: all 0.3s linear;
   background: none;
   border: none;

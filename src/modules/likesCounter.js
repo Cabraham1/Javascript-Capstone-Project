@@ -16,26 +16,25 @@ const likes = () => {
         item_id: item,
       }),
     });
-    fetch(URL_API)
-      .then((response) => response.json())
-      .then((data) => {
-        const likeCount = document.querySelector(`.likes-${item}`);
-        likeCount.querySelector('span').textContent = `${
-          data.filter((items) => items.item_id === item)[0].likes
-        } likes`;
-      });
+    const fetchLikes = async () => {
+      const response = await fetch(URL_API);
+      const data = await response.json();
+      const likeCount = document.querySelector(`.likes-${item}`);
+      likeCount.querySelector('span').textContent = `${
+        data.filter((items) => items.item_id === item)[0].likes
+      } likes`;
+    };
+    fetchLikes();
   });
 };
 
 const displayLikes = async () => {
-  await fetch(URL_API)
-    .then((response) => response.json())
-    .then((data) => {
-      data.forEach((item) => {
-        const likeCount = document.querySelector(`.likes-${item.item_id}`);
-        likeCount.querySelector('span').textContent = `${item.likes} likes`;
-      });
-    });
+  const response = await fetch(URL_API);
+  const data = await response.json();
+  data.forEach((item) => {
+    const likeCount = document.querySelector(`.likes-${item.item_id}`);
+    likeCount.querySelector('span').textContent = `${item.likes} likes`;
+  });
 };
 
 export { likes, displayLikes };

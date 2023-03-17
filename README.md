@@ -58,7 +58,7 @@ The Meal DB web application allows users to like, comment, and make a reservatio
 
 ## Live Demo
 
-[Live demo here](https://Cabraham1.github.io/capstone-project/)
+[Live demo here](https://cabraham1.github.io/Javascript-Capstone-Project/)
 
 ## Getting started
 

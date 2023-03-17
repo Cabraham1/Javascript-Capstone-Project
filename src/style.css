@@ -204,8 +204,8 @@ footer p {
 }
 
 .second-part button:hover {
-  background-color: blue;
-  color: var(--White);
+  background-color: white;
+  color: black;
 }
 
 .card-image img {
@@ -287,7 +287,7 @@ footer p {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: blue;
+  background-color: rgb(238, 238, 238);
   transition: 0.4s;
   z-index: 1;
   padding: 1rem;
@@ -311,11 +311,17 @@ footer p {
   display: none;
 }
 
-.close {
+.close-btn {
   cursor: pointer;
   margin-bottom: 16px;
   padding-left: 0;
   float: right;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.close-btn:hover {
+  color: red;
 }
 
 input,
@@ -327,8 +333,8 @@ textarea {
 }
 
 .comment-btn {
-  background-color: var(--Very-Dark-Blue);
-  color: var(--White);
+  background-color: black;
+  color: white;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   border: 1px solid var(--Dark-Gray);
@@ -337,8 +343,8 @@ textarea {
 }
 
 .comment-btn:hover {
-  background-color: blue;
-  color: var(--White);
+  background-color: white;
+  color: black;
 }
 
 @media screen and (max-width: 1120px) {

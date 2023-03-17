@@ -12,3 +12,4 @@ displayLikes();
 menuCounter();
 const niceMeal = new Meal();
 niceMeal.getMeal();
+displayLikes();
